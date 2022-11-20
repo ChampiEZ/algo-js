@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice 3</title>
+
+
+</head>
+
+<body>
+
+
+      <h5 id="joueur"></h5>
+      <div id="allumImg">
+        Pour commencer, choisissez un nombre d'allumettes :
+      </div>
+      
+      <p id="pfeu">
+        <table>
+          <tr id="trfeu">
+           <td><img src="img/matchbox.jpg" alt="flamme"/></td>
+          </tr>
+        </table>
+      </p>
+
+      <div id="ini">
+        
+        <label> le jeu avec</label>
+        <input type="text" id="nb" name="nb" size="5" value=""/>
+        <label>allumette(s)</label>
+        <span id="error1"></span>
+        <button type="button" onclick="flam('trfeu','allumImg','nb')"> Start </button>
+      </div>
+    </div>
+
+  <script type="text/javascript" src="exo3.js"></script>
+
+</body>
+
+</html>
